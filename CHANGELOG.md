@@ -32,6 +32,7 @@ Plugin developers:
 ### Other Changes
 
 - update screenshots (for readme file)
+- retire use of `pnpm` and code references
 
 ### Homebridge Dependencies
 
