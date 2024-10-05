@@ -27,6 +27,10 @@ Plugin developers:
 - implement and allow switching to scoped plugins
 - add plugin config validation functionality
 
+### Other Changes
+
+- retire use of `pnpm` and code references
+
 ### Homebridge Dependencies
 
 - `@homebridge/hap-client` @ `v1.10.2`
