@@ -33,6 +33,7 @@ Plugin developers:
 
 - update screenshots (for readme file)
 - retire use of `pnpm` and code references
+- enable strict config validation for the UI
 
 ### Homebridge Dependencies
 
