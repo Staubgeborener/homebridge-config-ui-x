@@ -35,6 +35,7 @@ Plugin developers:
 - switch from a top menu to a sidebar menu
 - show pairing status for bridges around the ui
 - refactor status and child bridge widgets
+- update default dashboard layout
 
 ### Other Changes
 
