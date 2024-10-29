@@ -72,6 +72,7 @@ Plugin developers:
 - migrate `@zajsf/*` to `@ng-formworks/*` for plugin schema forms
 - check for service mode when querying child bridge status
 - perform a full restart when updating `homebridge`
+- make terminal enabled by default on new macOS hb-service installs
 
 ### Homebridge Dependencies
 
