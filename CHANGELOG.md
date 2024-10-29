@@ -2450,6 +2450,7 @@ In addition:
 ### Other Changes
 
 - Updated Angular to 6.1.0
+- Made Terminal enabled by default on new macOS hb-service installs
 - Updated npm dependencies
 
 ## v3.8.5 (2018-06-15)
