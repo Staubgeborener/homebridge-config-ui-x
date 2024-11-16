@@ -28,6 +28,7 @@ Plugin developers:
 - updates to the `de.json` language file (#2249) (@Staubgeborener)
 - implement and allow switching to scoped plugins
 - add plugin config validation functionality
+- refactor status and child bridge widgets
 
 ### Other Changes
 
