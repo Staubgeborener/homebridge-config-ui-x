@@ -26,6 +26,7 @@ Plugin developers:
 
 - implement and allow switching to scoped plugins
 - add plugin config validation functionality
+- refactor status and child bridge widgets
 
 ### Other Changes
 
