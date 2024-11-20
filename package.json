@@ -121,11 +121,11 @@
     "unzipper": "0.12.3"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.9.1",
+    "@antfu/eslint-config": "^3.9.2",
     "@nestjs/testing": "^10.4.8",
     "@types/fs-extra": "^11.0.4",
     "@types/lodash": "^4.17.13",
-    "@types/node": "^22.9.0",
+    "@types/node": "^22.9.1",
     "@types/node-schedule": "^2.1.7",
     "@types/passport-jwt": "^4.0.1",
     "@types/semver": "^7.5.8",
