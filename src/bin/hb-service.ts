@@ -1280,7 +1280,7 @@ export class HomebridgeServiceHelper {
 
     try {
       await remove(npmInstallPath)
-      spinner.succeed(`Cleaned up npm at at ${npmInstallPath}`)
+      spinner.succeed(`Cleaned up npm at ${npmInstallPath}`)
     } catch (e) {
       spinner.fail(e.message)
     }

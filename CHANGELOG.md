@@ -2,7 +2,7 @@
 
 All notable changes to `homebridge-config-ui-x` will be documented in this file. This project tries to adhere to [Semantic Versioning](http://semver.org/).
 
-## v4.64.0 (2024-11-30)
+## v4.65.0 (2024-12-08)
 
 ### ⚠️ Upcoming Deprecations:
 
@@ -10,7 +10,27 @@ All notable changes to `homebridge-config-ui-x` will be documented in this file.
   - Node.js `v16` and earlier, so please update to `v18` or `v20` or `v22` - [more info on updating](https://github.com/homebridge/homebridge/wiki/How-To-Update-Node.js)
   - Raspberry Pi devices running on the `armv6` architecture (like the Pi 1 and Pi Zero) - please update your hardware
   - Instances using `pnpm` as the package manager - consider updating your Homebridge instance to use npm instead - [more info on updating](https://github.com/homebridge/homebridge-apt-pkg/blob/latest/README.md#using-apt)
-- Note that these are not requirements for UI `v4.64.0`
+- Note that these are not requirements for UI `v4.65.0`
+
+### UI Changes
+
+- updates to the `uk.json` language file (#2262) (@xrust83)
+- logo and `homebridge` text should link to status page
+- Add icons for shower head and water faucet valve types (#2267) (@justjam2013)
+- Removed conditional for displaying search exit component (#2269) (@justjam2013)
+
+### Other Changes
+
+- Fix typo in console message (#2264) (@markholland)
+- updated dependencies
+
+### Homebridge Dependencies
+
+- `@homebridge/hap-client` @ `v1.10.2`
+- `@homebridge/node-pty-prebuilt-multiarch` @ `v0.11.14`
+- `@homebridge/plugin-ui-utils` @ `v1.0.3`
+
+## v4.64.0 (2024-11-30)
 
 ### UI Changes
 
@@ -23,6 +43,12 @@ All notable changes to `homebridge-config-ui-x` will be documented in this file.
 
 - dependency updates
 - fix npm search max character limit
+
+### Homebridge Dependencies
+
+- `@homebridge/hap-client` @ `v1.10.2`
+- `@homebridge/node-pty-prebuilt-multiarch` @ `v0.11.14`
+- `@homebridge/plugin-ui-utils` @ `v1.0.3`
 
 ## v4.63.0 (2024-11-17)
 
