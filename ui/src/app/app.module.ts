@@ -1,5 +1,5 @@
-import { AppComponent } from '@/app/app.component'
 import { AppRoutingModule } from '@/app/app-routing.module'
+import { AppComponent } from '@/app/app.component'
 import { AuthModule } from '@/app/core/auth/auth.module'
 import { CoreModule } from '@/app/core/core.module'
 import { supportedLocales } from '@/app/core/locales'

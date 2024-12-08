@@ -53,8 +53,8 @@ import { NgModule } from '@angular/core'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 import { TranslateModule } from '@ngx-translate/core'
-import { InlineSVGModule } from 'ng-inline-svg-2'
 import { NouisliderModule } from 'ng2-nouislider'
+import { InlineSVGModule } from 'ng-inline-svg-2'
 import { NgxMdModule } from 'ngx-md'
 
 @NgModule({

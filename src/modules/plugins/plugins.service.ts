@@ -247,7 +247,12 @@ export class PluginsService {
       await this.getInstalledPlugins()
     }
 
-    const q = `${(!query || !query.length) ? '' : `${query}+`}keywords:homebridge-plugin+not:deprecated&size=30`
+    if ((query.indexOf('homebridge-') === 0 || this.isScopedPlugin(query)) && !this.hiddenPlugins.includes(query.toLowerCase())) {
+      return await this.searchNpmRegistrySingle(query.toLowerCase())
+    }
+
+    // There seems to be a new 64-character limit on the text query (which allows for 15 characters of query)
+    const q = `${(!query || !query.length) ? '' : `${query.substring(0, 15)}+`}keywords:homebridge-plugin+not:deprecated&size=30`
     let searchResults: INpmSearchResults
 
     try {

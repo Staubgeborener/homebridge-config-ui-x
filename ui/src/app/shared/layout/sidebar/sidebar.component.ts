@@ -7,6 +7,7 @@ import { Component, Input, OnInit, Renderer2 } from '@angular/core'
 import { NavigationEnd, Router } from '@angular/router'
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 import { TranslateService } from '@ngx-translate/core'
+import { isStandalonePWA } from 'is-standalone-pwa'
 
 @Component({
   selector: 'app-sidebar',
@@ -20,6 +21,7 @@ export class SidebarComponent implements OnInit {
   public rPiWasUnderVoltage = false
   public isMobile: any = false
   public freezeMenu = false
+  public isPwa = isStandalonePWA()
 
   constructor(
     public router: Router,
@@ -150,5 +152,9 @@ export class SidebarComponent implements OnInit {
         target.click()
       }
     }
+  }
+
+  reloadPage() {
+    window.location.reload()
   }
 }
