@@ -43,7 +43,7 @@
   "accessories.control.unlocked": "Aufgeschlossen",
   "accessories.control_disabled": "Homebridge-Gerätesteuerung deaktiviert",
   "accessories.hide_this_accessory": "Gerät versteckt",
-  "accessories.message_for_more_information": "für mehr Informationen",
+  "accessories.message_for_more_information": "für mehr Informationen.",
   "accessories.message_must_use_insecure_mode": "Um deine Geräte zu steuern, musst du Homebridge im unsicheren Modus ausführen.",
   "accessories.message_please_see": "Bitte beachten",
   "accessories.name": "Name",
